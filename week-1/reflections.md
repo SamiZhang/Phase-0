@@ -1,0 +1,26 @@
+# 1.1 Think About Time Reflection
+I loved the Pomodoro technique and having a growth mindset. It’s something that I really need which will help me be more productive and able to manage my time better.  Pomodoro is a technique that allows one to manage their time to work and have fun. A very well balanced technique for everyone by simply setting a time for yourself how long you will work on a project and giving yourself sometime to have a break. Good time management will improve my productivity but it’s still not enough. I also need to have the right mindset to be productive. I think a growth mindset will be able to do that because if I think and understand the fact that I can improve my skills through effort then it will motivate me to be more productive on my study/work.  Currently, I’m not the type of person who know how to manage time or being very productive. I see myself as a procrastinator and I don’t think it will work for me if I continued to be like this. Therefore, I will try to start using the Pomodoro technique and develop a growth mindset. Perhaps, start giving myself a set time to work on my homework/study daily and for every set I will work on it for 30mins and break for 10mins. Start small and slowly build up to maybe study for an hour and break 15mins. I know it takes time to get in habit but as long as I have the right mindset I believed that I can do it. 
+Time boxing is basically setting a very specific time frame for yourself or your group to work on a specific project. This project can be long or short but time boxing will set dates when certain things should be done and when the project should be finalized. With that, people will not spend too much or too little time on whatever they are working. It also provides time for us to review what we have done so far.  We can use time boxing on our weekly homework and even pair sessions during Phase 0. We can set specific days for each week to have things accomplished. For example, setting Thursday to be day to have all homework done, setting Sunday to have everything reviewed and finished all feedbacks. Even for pair sessions, we can set maybe 30mins being the driver and 30mins being the navigator.
+
+##1.2 The Command Line Reflection
+Shell is an operative program that we can use to interact and give tasks to the computer. From my understanding, “bash” is one type of shell and it’s called Bourne Again SHell shell.  Overall, the material is not hard but the most challenging part is to memorize all the commands and use it like second nature.  Everything was working fine throughout the whole exercise as I was able to use all commands and the exercise really helps me memorizing the commands. In my opinion, it’s very important to know commands such as “help”, “*”, “cd”, and “ls”. Command like “help” is like a cheat sheet if anytime we forget the commands. The asterisk symbol, “*”, will make things easier for us if we need to need to find certain type of files. As for “cd” and “ls”, I felt like those two will be use a lot or at least more often than the other commands , therefore, I think it’s important for us to remember it.
+
+pwd  (print working directory) – it will list out the current directory 
+ls (list directory) – it will list out all the contents within the directory/file you looking at
+mv (moving file) – it will move or rename a file
+cd (change directory) – it will change the current directory 
+../ (path) –  it shows you the path to your file ???? (not sure for this one)
+touch (making empty files) – it will create a new file
+mkdir (make a directory) – it will create a new directory
+less (view a file) – it will allow user to look at all the contents of a file
+rmdir (remove directory) – it will remove a specific directory
+rm (removing file) – it will remove file within directory
+help (help) – it will list out commands and what it does
+
+###1.4 Forking and Cloning Reflection 
+Creating a new repository is easy. Simply go on to your GitHub account and locate a “+” symbol on the upper right hand corner next to your profile. Click it and you’ll see “New repository” and click that it will allow you to create a new repository. 
+To fork a repository, click on the file you want to fork and once you are in locate the “fork” button on the upper left hand corner next to the “star” button. Click the “fork” button and a window will pop up with different profiles. Select the profile you want to fork the file to.
+Cloning a repository by first locating the file you wish to clone within your profile on GitHub. You will need the command line to clone the repository and type “pwd” to check where you are first. Go to the file you want to clone and copy the SSH URL or the HTTPS URL and paste it to your clipboard. To locate your clone file, simply use the command “ls” and open it with sublime. 
+Forking a repository allow you to contribute to or use someone’s project. It’s better than creating a new one because you may use other’s project as starting point and learn from others.
+
+I didn’t really have struggles setting up both Git and GitHub. Actually, I used Cloud9 instead of Git to clone my repository. I learned that Git and Cloud9 are in a way connected with GitHub and all works very well together. It’s very easy to upload files from Git to GitHub as to cloning repository from GitHub to Git or Cloud9.
