@@ -1,0 +1,1 @@
+<img src="./wireframe-blog-index.sdxml" />
