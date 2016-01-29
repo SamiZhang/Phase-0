@@ -1,5 +1,5 @@
-![Alt text](../imgs/wireframe-index.jpg)
-![Alt text](../imgs/wireframe-blog-index.jpg)
+![Alt text](./imgs/wireframe-index.jpg=650x600)
+![Alt text](./imgs/wireframe-blog-index.jpg=600x650)
 
 What is a wireframe?
 What are the benefits of wireframing?
