@@ -1,2 +1,9 @@
 ![Alt text](../imgs/wireframe-index.jpg=650x600)
 ![Alt text](../imgs/wireframe-blog-index.jpg=600x650)
+
+What is a wireframe?
+What are the benefits of wireframing?
+Did you enjoy wireframing your site?
+Did you revise your wireframe or stick with your first idea?
+What questions did you ask during this challenge? What resources did you find to help you answer them?
+Which parts of the challenge did you enjoy and which parts did you find tedious?
