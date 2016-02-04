@@ -1,1 +1,1 @@
-![alt tag](../../../imgs/3.4CSS1.png)
+![alt text](./imgs/3.4CSS1.png)
