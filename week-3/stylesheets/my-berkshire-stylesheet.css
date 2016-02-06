@@ -1,5 +1,13 @@
-text{
+html{
   color:#000080;
+  font-family: Covered By Your Grace;
+}
+
+table{
+  text-align: left;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 a{
@@ -26,32 +34,64 @@ header span {
 
 p {
   text-align:center;
-  font-size: 10px;
+  font-size: 12px;
+}
+
+p2 {
+  font-size:14px;
+}
+
+p3{
+  font-size:16px;
+}
+
+footer{
+  font-size:10px;
+  margin-top:10px;
+  margin-bottom:10%;
 }
 
 .line {
   width: 100%;
   height: 1px;
   background: black;
+  margin-top: 1%;
 }
 
 .line2 {
   width: 100%;
   height: 1px;
   background: black;
+  margin-top: 1%;
+  margin-bottom:1%;
 }
 
 .line3 {
   width: 100%;
   height: 1px;
   background: black;
+  margin-top: 1%;
+  margin-bottom:1%;
 }
 
 .line4 {
   width: 100%;
   height: 1px;
   background: black;
+  margin-top: 1%;
 }
 
+/*What is important to know when linking an external file (like a stylesheet) to an HTML file?
+It is important to know the type, the relationship, and the location of the external file.
 
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+I don't really have a trick but I used margin a lot because it's by far the easiest way for me to move things around to where I want. I would say that it's quite hard to get the site as I wanted to since I'm just starting to use CSS and not familiar with positioning and the numbers, it did took me some time to try almost everything to see how it affect the site. 
 
+What CSS did you use to modify the element style (like size, color, etc.)
+I used width, height, font size, margin, text align, and color. Hopefuly, I will learn to use more elements soon.
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+Yes! I used <div> to class the line that was used on the site to divide the sections (<hr>). Well, the challenge stated that we can't use <hr> so I simply used class to work on CSS for that line. 
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+Even though, my coding are not the best or professional but I do feel like the way I did it is better practice because I allowed CSS to do it's job. HTML's purpose is not to style the site, you could in some way but not the best, but CSS's purpose is to style a site. In a sense, it's better to allow whichever language to do what it's best at. We can also get a better result by styling with CSS then with HTML. 
