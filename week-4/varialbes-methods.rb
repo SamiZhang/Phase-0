@@ -37,5 +37,9 @@ You run and RSpec file by typing "rspec spec_file.rb" into the command line.
 What was confusing about this material? What made sense?
 I know this sounds dumb but I was confused with "p" and "puts". I kept using "puts" when I was suppose to use "p" and because of that I failed rspec multiple times. I would spend like 15 minutes checking what I have type wrong and end up just not using "p". Other than that, I think all the materials make sense to me! 
 
+4.3.1
+https://github.com/SamiZhang/Phase-0/tree/master/week-4/address
 
+4.3.2
+https://github.com/SamiZhang/Phase-0/tree/master/week-4/math
 =end
