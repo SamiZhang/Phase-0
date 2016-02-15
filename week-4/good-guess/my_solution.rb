@@ -5,11 +5,6 @@
 
 # Your Solution Below
 def good_guess?(x)
-    if x == 42
-        puts "True"
-    else
-        puts "False"
-    end
-end
+   x == 42
+end    
 
-puts good_guess?(42)

@@ -4,20 +4,21 @@
 
 
 # Your Solution Below
-puts "Please type in a year to check if it's leap year."
+puts "Please put a year to see if it's a leap year"
 year = gets.to_i
 
-def leap_year? (year)
-    if year % 4 == 0
-        puts "True"
-    elsif year % 400 == 0
-        puts "True"
-    elsif year % 100 == 0
-        puts "False"
-    else
-        puts "False"
-    end    
-end     
+#IF the year input is divisible by 4 or 400, leap year = true else false
+def leap_year?(year)
+  if year % 4 == 0 && year % 100 != 0
+    true
+  elsif year % 400 == 0
+    true
+  elsif year % 4 == 0 && year % 100 == 0 && year % 400 != 0
+    false
+  else
+    false
+  end
+end
 
-puts leap_year?(year)
-
+p leap_year?(year)
+#ELSE divisible by 100, leap year = false else true
