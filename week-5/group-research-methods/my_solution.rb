@@ -49,13 +49,13 @@ p my_hash_modification_method!(my_family_pets_ages, 2)
 
 # Person 3: Sam Zhang
 def my_array_sorting_method(source)
-  source.sort { |a,b| a.to_s <=> b.to_s }
+  source.sort { |a,b| a.to_s <=> b.to_s } # sort string within array alphabetically
 end
 p my_array_sorting_method(i_want_pets)
 
 
 def my_hash_sorting_method(source)
-   source.sort { |a1,a2| a1[1] <=> a2[1]}
+   source.sort { |a1,a2| a1[1] <=> a2[1]} # sort hash according to it's value from smalles to largest
 end
 p my_hash_sorting_method(my_family_pets_ages)
 
@@ -77,7 +77,7 @@ p my_hash_sorting_method(my_family_pets_ages)
 # For this challenge we are sorting out by age(value)
 # Therefore, key[a] can be the same letter as to value[1]/[2] needs to be different
 # Since we wanto to ".sort" by age from youngest to oldest, I had the comparison as a1[1] <=> a2[1]
-# This will return an hash sorted from the smallest to the largest number
+# This will return an hash sorted by it's value as ["Annabelle", 0], ["Ditto", 2], ["Hoobie", 3], ["Bogart", 4], ["Poly", 5], ["Evi", 6], ["George", 12]
 # If we want to ".sort" it from oldest to younges, we can change it to a1[2] <=> a2[2] or a2[1] <=> a1[1]
 
 
