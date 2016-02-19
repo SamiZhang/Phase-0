@@ -1,6 +1,6 @@
 # Numbers to Commas Solo Challenge
 
-# I spent [] hours on this challenge.
+# I spent [3] hours on this challenge.
 
 # Complete each step below according to the challenge directions and
 # include it in this file. Also make sure everything that isn't code
@@ -16,29 +16,34 @@
 # What are the steps needed to solve the problem?
     # Create a method named separate_comma with an argument(num)
         # Turn argument(num) into string
-        # Counts the characters of the argument(num)
-        # Split the argument(number) with comma
-            # No comma IF length is less than 4
-            # Put comma IF length is more than 3
-                # Place comma after a count of 3 characters 
+        # Check length of string
+        # IF length is < 4 then puts num
+        # IF length is > 3 the separate with comma
+        # Add comma to every third digit
+          # Comma are added in reverse
+        
     # End method
 
 
 # 1. Initial Solution
 def separate_comma(num)
-    s = num.to_s
-    l = s.length
-    if l < 4
-        p num
-    elsif l > 3
-        
-    end    
-end  
-separate_comma(90)
+  s = num.to_s
+  l = s.length
+  
+  if l < 4 
+    p num
+  end
+  
+  if l > 3
+    
+end
+  
+separate_comma(900) 
 
 # 2. Refactored Solution
 
+# def separate_comma(num)
+#   num.to_s.chars.to_a.reverse.each_slice(3).map(&:join).join(",").reverse
+# end
 
-
-
-# 3. Reflection
+# p separate_comma(900000000)
