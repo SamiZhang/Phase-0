@@ -26,7 +26,7 @@
 
 # 1. Initial Solution
 
-def mode(array)
+def array_mode(array)
   new_array = Array.new
   freq = Hash.new
   max_count = 1
@@ -45,17 +45,21 @@ def mode(array)
   new_array
 end
 
-p mode ([1, 2, 3, 4, 5, 5, 7])
-p mode ([4, 4, 5, 5, 6, 6, 6, 7, 5])
-p mode (["apple", "banana", "clementine", "banana", "cherry", "strawberry", "cherry"])
+p array_mode ([1, 2, 3, 4, 5, 5, 7])
+p array_mode ([4, 4, 5, 5, 6, 6, 6, 7, 5])
+p array_mode (["apple", "banana", "clementine", "banana", "cherry", "strawberry", "cherry"])
 
 
 # 3. Refactored Solution
 
-def mode(array)
+def array_mode(array)
   freq = array.inject({}) { |k,v| k[v] = array.count(v); k }
   freq.select { |k,v| v == freq.values.max }.keys
 end
+
+p array_mode ([1, 2, 3, 4, 5, 5, 7])
+p array_mode ([4, 4, 5, 5, 6, 6, 6, 7, 5])
+p array_mode (["apple", "banana", "clementine", "banana", "cherry", "strawberry", "cherry"])
 
 
 # 4. Reflection
