@@ -17,10 +17,11 @@
     # Create a method named separate_comma with an argument(num)
         # Turn argument(num) into string
         # Check length of string
+        # Reverse string to add comma(s)
         # IF length is < 4 then puts num
         # IF length is > 3 the separate with comma
-        # Add comma to every third digit
-          # Comma are added in reverse
+        # Add comma to every third digit to reverse string
+          # reverse string back to normal
         
     # End method
 
@@ -29,19 +30,19 @@
 def separate_comma(num)
   s = num.to_s
   l = s.length
+  r = s.reverse
   
   if l < 4 
     p num
+  elsif l > 3
+    p r.gsub(/.../,'\&,').reverse  
   end
-  
-  if l > 3
-    
-end
-  
-separate_comma(900) 
+end 
+
+separate_comma(9653567464652435345234523450) 
+
 
 # 2. Refactored Solution
-
 # def separate_comma(num)
 #   num.to_s.chars.to_a.reverse.each_slice(3).map(&:join).join(",").reverse
 # end
