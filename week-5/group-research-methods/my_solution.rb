@@ -59,6 +59,35 @@ def my_hash_sorting_method(source)
 end
 p my_hash_sorting_method(my_family_pets_ages)
 
+# Person 4: Hanna Taylor
+
+# Pseudocode:
+# input = takes an array and a letter
+# steps =
+# Convert each item in the list to a string
+# Search through the list to find words with that desired letter
+# If a word has that letter, delete the word
+# output = a new list without that word that you just deleted
+
+def my_array_deletion_method!(source, thing_to_delete)
+  source.each {|word| remove_word = word.to_s
+    if remove_word.include?(thing_to_delete) == true
+      source.delete(string)
+      p source
+    end
+  }
+end
+
+# Psuedocode:
+# Input = the thing you want to delete
+# Steps = delete it
+# Output = a new list without that thing you want to delete.
+
+def my_hash_deletion_method!(source, thing_to_delete)
+  source.delete(thing_to_delete)
+  p source
+end
+
 
 # Identify and describe the Ruby method(s) you implemented.
 # For both of my methods I used ".sort" to sort data within each arrays.
