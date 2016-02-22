@@ -28,15 +28,15 @@
 
 # 1. Initial Solution
 def separate_comma(num)
-  s = num.to_s
+  s = num.to_s.to_a
   l = s.length
   r = s.reverse
-  
-  if l < 4 
-    p num
-  elsif l > 3
-    p r.gsub(/.../,'\&,').reverse  
-  end
+  p s[0]
+  # if l < 4 
+  #   p num
+  # elsif l > 3
+  #   p r.gsub(/.../,'\&,').reverse  
+  # end
 end 
 
 separate_comma(9653567464652435345234523450) 
@@ -48,3 +48,5 @@ separate_comma(9653567464652435345234523450)
 # end
 
 # p separate_comma(900000000)
+
+s[0]
