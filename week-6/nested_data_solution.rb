@@ -74,3 +74,15 @@ startup_names.each do |element|
 end
 
 p startup_names
+
+
+=begin
+What are some general rules you can apply to nested arrays?
+We need to know how many levels there are whether it's for an array or hash. After that, use the most basic way to call out each elements from the array/hash to make sure we know exactly where they are located before working on a method. Working with nested arrays/hash can be simple as long as we know where everything are located at and calling it our correctly.
+
+What are some ways you can iterate over nested arrays?
+The way I did it was using if/else to determine whether an element is an array, if it is then we can take it out and work with that array or even pull out another array within it if there's any.
+
+Did you find any good new methods to implement or did you re-use one you were already familiar with? What was it and why did you decide that was a good option?
+We pretty much used the same method which was if/else. The reason was that it was our first time looping a nested array/hash and we both agree that it's better for us to use something simple so we can understand how looping a nested array/hash better.
+=end

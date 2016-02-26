@@ -50,7 +50,7 @@ def pad!(array, min_size, value = nil) #destructive
 end 
 
 def pad(array, min_size, value = nil) #non-destructive
- array.clone.fill(value, array.length...min_size)
+array.clone.fill(value, array.length...min_size)
 end
 
 
@@ -74,3 +74,6 @@ I say our code is very easy to read because it looks like we were writing it out
 What is the difference between destructive and non-destructive methods in your own words?
 Destructive is when your method make permanent changes to the original array while non destructive make changes without affect the original array.
 =end
+
+
+
