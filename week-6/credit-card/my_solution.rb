@@ -88,9 +88,14 @@ end
 end
 
 
-
-
-
-
-
 # Reflection
+=begin
+What was the most difficult part of this challenge for you and your pair?
+Figuring out why we kept getting the same two errors which was not being able to return true or false. We started out early because we already know we will need extra time for this one but never expected to be 4 hours. We got to a point that we really don't know what else to do after making changes and attempting to fix the error. Turns out, we were completely on the right track and our code was correct, it was just that we put an extra "end" somewhere which caused the two errors. I need to get better at checking my code.
+
+What new methods did you find to help you when you refactored?
+I find "chars" to be extremely useful to help me refactor for this challenge. Well, I didn't refactor much but "chars" was definitely a good method to use!
+
+What concepts or learnings were you able to solidify in this challenge?
+I was able to solidify how to construct my codes in orders better and also using variables to store my codes. Never felt how useful variables are until this challenge. LOL
+=end
