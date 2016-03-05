@@ -57,5 +57,12 @@ console.log(michaelPhelps.name + " " + michaelPhelps.sport + " " + michaelPhelps
 
 // Reflection
 /*
+What JavaScript knowledge did you solidify in this challenge?
+I have a better understanding on constructor functions and literal notations of when to use each for better result and readability. I also learned to use a new method called filter.
 
+What are constructor functions?
+Constructor functions is one of the two ways to create a JavaScript object. It's usually used when initial work before an object or when the object needed to be used multiple times and can be changed. The object's properties are defined with the keyword "this" and values are set with "=" sign.
+
+How are constructors different from Ruby classes (in your research)?
+The biggest difference is what is used to define the properties of the object. Ruby uses "@" while JavaScript uses "this". Also, I think we can create properties on any object created with a constructor? 
 */
