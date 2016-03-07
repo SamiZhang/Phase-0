@@ -8,7 +8,7 @@
 var secretNumber = 7;
 var password = "just open the door";
 var allowedIn = false;
-var members = ["John", "Paul", "Ringo", "Mary"];
+var members = ["John", "Evan", "Tony", "Mary"];
 
 // __________________________________________
 
