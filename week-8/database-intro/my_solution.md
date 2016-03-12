@@ -10,7 +10,7 @@ Release 5:
 9. select region_name from regions where region_name like '%central';
 10. select regions.region_name, states.state_name from regions inner join states on regions.id=states.region_id order by regions.id;
 
-![Alt text](../database-intro/Capture.PNG)
+![Alt text](../imgs/Capture.PNG)
 
 Reflection:
 What are databases for?
